@@ -8,6 +8,7 @@ func Town() {
 	fmt.Scanln(&choice)
 	if choice == 3 {
 		Scene(church)
+		Bells_sound()
 		Church()
 	} else if choice == 4 {
 		Home()

@@ -89,3 +89,7 @@ func Crowd_shocked_sound() {
 func Dead_sound() {
 	Play_sound(".\\sounds\\undertaker.mp3")
 }
+
+func Bells_sound() {
+	Play_sound(".\\sounds\\bells.mp3")
+}

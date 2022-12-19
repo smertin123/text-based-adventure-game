@@ -10,6 +10,10 @@ func Home() {
 	if choice == 1 {
 		Look_around()
 	} else if choice == 2 {
+		fmt.Printf("You arrive in town.\n")
+		Sleep(2)
+		Scene(town)
+		Sleep(2)
 		Town()
 	} else if choice == 0 {
 		Inventory(Home)
